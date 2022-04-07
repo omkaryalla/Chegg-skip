@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 3,
+    "name": "chegg skip",
+    "version": "22.4",
+  
+    "description": "Makes skipping a question easy in chegg",
+  
+  "icons": {
+    "48": "icons/Group 1(1).png",
+    "96": "icons/Group 1(2).png"
+  },
+  
+    "content_scripts": [
+      {
+        "matches": ["https://expert.chegg.com/expertqna"],
+        "js": ["chegg_skip.js"]
+      }
+    ]
+  
+  }
